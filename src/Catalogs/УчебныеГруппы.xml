@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="2308ca77-d7af-4986-a23b-566d3cdb6eba">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.УчебныеГруппы" category="Object">
+				<xr:TypeId>95ab1157-e8f4-4686-b643-44d38767bed2</xr:TypeId>
+				<xr:ValueId>7f2d68bf-99c5-49c1-a9ca-ed06a35f12a2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.УчебныеГруппы" category="Ref">
+				<xr:TypeId>feab2738-b797-465d-bebf-700552a5ab83</xr:TypeId>
+				<xr:ValueId>50a0491b-8ffa-42a0-9ab2-d79b40b48802</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.УчебныеГруппы" category="Selection">
+				<xr:TypeId>0ff781e0-bf45-417e-bb28-971bbc1c362d</xr:TypeId>
+				<xr:ValueId>cd315689-ded2-4fc6-b623-2d1c1cd03c35</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.УчебныеГруппы" category="List">
+				<xr:TypeId>53dbeb00-c7e2-4be1-a07a-e8aff0322f51</xr:TypeId>
+				<xr:ValueId>5333fa96-f7e4-4406-8043-dfaa3fc9d431</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.УчебныеГруппы" category="Manager">
+				<xr:TypeId>1c44e111-ba1b-4572-8a13-60a1627757a3</xr:TypeId>
+				<xr:ValueId>2fce988d-eb1f-4e20-b5f4-589169be4418</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>УчебныеГруппы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0f3f76f1-ed82-4c23-b124-5f184ea8d5e7</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

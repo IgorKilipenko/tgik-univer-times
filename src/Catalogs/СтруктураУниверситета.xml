@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="7f3a2481-4234-48fa-aa61-6381890a5c4b">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СтруктураУниверситета" category="Object">
+				<xr:TypeId>bb6a6aea-ec1c-43cd-b01b-dac198c518c1</xr:TypeId>
+				<xr:ValueId>24a1f206-7b5d-4177-976c-c61f8203e283</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СтруктураУниверситета" category="Ref">
+				<xr:TypeId>75b9bb2c-da4f-4ec6-85cd-805241c5a1ee</xr:TypeId>
+				<xr:ValueId>c2a34d8d-5e9e-4200-8d26-320b278f4eb3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СтруктураУниверситета" category="Selection">
+				<xr:TypeId>e1ce7d52-746d-4251-9d78-b2bd7c87e104</xr:TypeId>
+				<xr:ValueId>dd1ac41b-db3c-484f-9c28-673c13964a1a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СтруктураУниверситета" category="List">
+				<xr:TypeId>9ba82049-57a5-4017-bd20-7f11dc551e8d</xr:TypeId>
+				<xr:ValueId>7847023c-95b9-4f3c-ae23-7a97c298a90f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СтруктураУниверситета" category="Manager">
+				<xr:TypeId>2c2adf21-6770-42da-a1cf-90dce1004945</xr:TypeId>
+				<xr:ValueId>f18bfcb5-4cbb-4d5d-882b-fdee87b820b5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтруктураУниверситета</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8a050366-4ac0-41d7-83ff-55908985c8c5</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

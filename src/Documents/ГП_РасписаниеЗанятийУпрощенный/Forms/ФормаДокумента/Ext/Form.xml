@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаШапка" id="318">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="319"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаШапкаЛево" id="320">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа шапка лево</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа шапка лево</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаШапкаЛевоРасширеннаяПодсказка" id="321"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаДатаНомер" id="324">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа дата номер</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа дата номер</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаДатаНомерРасширеннаяПодсказка" id="325"/>
+							<ChildItems>
+								<InputField name="Дата" id="4">
+									<DataPath>Объект.Date</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+									<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+								</InputField>
+								<InputField name="Номер" id="1">
+									<DataPath>Объект.Number</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+									<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<InputField name="Организация" id="7">
+							<DataPath>Объект.Организация</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ОрганизацияКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="9"/>
+						</InputField>
+						<InputField name="Факультет" id="10">
+							<DataPath>Объект.Факультет</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ФакультетКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="ФакультетРасширеннаяПодсказка" id="12"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаШапкаПраво" id="322">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа шапка лево</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа шапка лево</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаШапкаПравоРасширеннаяПодсказка" id="323"/>
+					<ChildItems>
+						<InputField name="Курс" id="13">
+							<DataPath>Объект.Курс</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="КурсКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="КурсРасширеннаяПодсказка" id="15"/>
+						</InputField>
+						<InputField name="Группа" id="16">
+							<DataPath>Объект.Группа</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ГруппаКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="ГруппаРасширеннаяПодсказка" id="18"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="ТаблицаРасписания" id="326">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ТаблицаРасписания</DataPath>
+			<CommandSet>
+				<ExcludedCommand>Add</ExcludedCommand>
+				<ExcludedCommand>Copy</ExcludedCommand>
+				<ExcludedCommand>Delete</ExcludedCommand>
+				<ExcludedCommand>MoveDown</ExcludedCommand>
+				<ExcludedCommand>MoveUp</ExcludedCommand>
+				<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+				<ExcludedCommand>SortListAsc</ExcludedCommand>
+				<ExcludedCommand>SortListDesc</ExcludedCommand>
+			</CommandSet>
+			<SearchStringLocation>None</SearchStringLocation>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ТаблицаРасписанияКонтекстноеМеню" id="327"/>
+			<AutoCommandBar name="ТаблицаРасписанияКоманднаяПанель" id="328"/>
+			<ExtendedTooltip name="ТаблицаРасписанияРасширеннаяПодсказка" id="329"/>
+			<SearchStringAddition name="ТаблицаРасписанияСтрокаПоиска" id="330">
+				<AdditionSource>
+					<Item>ТаблицаРасписания</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаРасписанияСтрокаПоискаКонтекстноеМеню" id="331"/>
+				<ExtendedTooltip name="ТаблицаРасписанияСтрокаПоискаРасширеннаяПодсказка" id="332"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ТаблицаРасписанияСостояниеПросмотра" id="333">
+				<AdditionSource>
+					<Item>ТаблицаРасписания</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаРасписанияСостояниеПросмотраКонтекстноеМеню" id="334"/>
+				<ExtendedTooltip name="ТаблицаРасписанияСостояниеПросмотраРасширеннаяПодсказка" id="335"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ТаблицаРасписанияУправлениеПоиском" id="336">
+				<AdditionSource>
+					<Item>ТаблицаРасписания</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаРасписанияУправлениеПоискомКонтекстноеМеню" id="337"/>
+				<ExtendedTooltip name="ТаблицаРасписанияУправлениеПоискомРасширеннаяПодсказка" id="338"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="OnActivateRow">ТаблицаРасписанияПриАктивизацииСтроки</Event>
+			</Events>
+			<ChildItems>
+				<CheckBoxField name="ТаблицаРасписанияИспользуется" id="388">
+					<DataPath>Объект.ТаблицаРасписания.Используется</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ТаблицаРасписанияИспользуетсяКонтекстноеМеню" id="389"/>
+					<ExtendedTooltip name="ТаблицаРасписанияИспользуетсяРасширеннаяПодсказка" id="390"/>
+				</CheckBoxField>
+				<LabelField name="ТаблицаРасписанияНомерСтроки" id="339">
+					<DataPath>Объект.ТаблицаРасписания.LineNumber</DataPath>
+					<Visible>false</Visible>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаРасписанияНомерСтрокиКонтекстноеМеню" id="340"/>
+					<ExtendedTooltip name="ТаблицаРасписанияНомерСтрокиРасширеннаяПодсказка" id="341"/>
+				</LabelField>
+				<InputField name="ТаблицаРасписанияНомерДня" id="342">
+					<DataPath>Объект.ТаблицаРасписания.НомерДня</DataPath>
+					<Visible>false</Visible>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблицаРасписанияНомерДняКонтекстноеМеню" id="343"/>
+					<ExtendedTooltip name="ТаблицаРасписанияНомерДняРасширеннаяПодсказка" id="344"/>
+				</InputField>
+				<InputField name="ТаблицаРасписанияПредставлениеДня" id="345">
+					<DataPath>Объект.ТаблицаРасписания.ПредставлениеДня</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>День</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблицаРасписанияПредставлениеДняКонтекстноеМеню" id="346"/>
+					<ExtendedTooltip name="ТаблицаРасписанияПредставлениеДняРасширеннаяПодсказка" id="347"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<Table name="ТаблицаРасписанияДетализация" id="348">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ТаблицаРасписанияДетализация</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ТаблицаРасписанияДетализацияКонтекстноеМеню" id="349"/>
+			<AutoCommandBar name="ТаблицаРасписанияДетализацияКоманднаяПанель" id="350"/>
+			<ExtendedTooltip name="ТаблицаРасписанияДетализацияРасширеннаяПодсказка" id="351"/>
+			<SearchStringAddition name="ТаблицаРасписанияДетализацияСтрокаПоиска" id="352">
+				<AdditionSource>
+					<Item>ТаблицаРасписанияДетализация</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаРасписанияДетализацияСтрокаПоискаКонтекстноеМеню" id="353"/>
+				<ExtendedTooltip name="ТаблицаРасписанияДетализацияСтрокаПоискаРасширеннаяПодсказка" id="354"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ТаблицаРасписанияДетализацияСостояниеПросмотра" id="355">
+				<AdditionSource>
+					<Item>ТаблицаРасписанияДетализация</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаРасписанияДетализацияСостояниеПросмотраКонтекстноеМеню" id="356"/>
+				<ExtendedTooltip name="ТаблицаРасписанияДетализацияСостояниеПросмотраРасширеннаяПодсказка" id="357"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ТаблицаРасписанияДетализацияУправлениеПоиском" id="358">
+				<AdditionSource>
+					<Item>ТаблицаРасписанияДетализация</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаРасписанияДетализацияУправлениеПоискомКонтекстноеМеню" id="359"/>
+				<ExtendedTooltip name="ТаблицаРасписанияДетализацияУправлениеПоискомРасширеннаяПодсказка" id="360"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="BeforeAddRow">ТаблицаРасписанияДетализацияПередНачаломДобавления</Event>
+				<Event name="OnStartEdit">ТаблицаРасписанияДетализацияПриНачалеРедактирования</Event>
+			</Events>
+			<ChildItems>
+				<CheckBoxField name="ТаблицаРасписанияПоДнямИспользуется" id="393">
+					<DataPath>Объект.ТаблицаРасписанияДетализация.Используется</DataPath>
+					<Visible>false</Visible>
+					<TitleLocation>None</TitleLocation>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ТаблицаРасписанияПоДнямИспользуетсяКонтекстноеМеню" id="394"/>
+					<ExtendedTooltip name="ТаблицаРасписанияПоДнямИспользуетсяРасширеннаяПодсказка" id="395"/>
+				</CheckBoxField>
+				<LabelField name="ТаблицаРасписанияПоДнямНомерСтроки" id="361">
+					<DataPath>Объект.ТаблицаРасписанияДетализация.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаРасписанияПоДнямНомерСтрокиКонтекстноеМеню" id="362"/>
+					<ExtendedTooltip name="ТаблицаРасписанияПоДнямНомерСтрокиРасширеннаяПодсказка" id="363"/>
+				</LabelField>
+				<InputField name="ТаблицаРасписанияПоДнямНомерДня" id="364">
+					<DataPath>Объект.ТаблицаРасписанияДетализация.НомерДня</DataPath>
+					<Visible>false</Visible>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблицаРасписанияПоДнямНомерДняКонтекстноеМеню" id="365"/>
+					<ExtendedTooltip name="ТаблицаРасписанияПоДнямНомерДняРасширеннаяПодсказка" id="366"/>
+				</InputField>
+				<ColumnGroup name="ТаблицаРасписанияПоДнямГруппаВремя" id="391">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Время занятий</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Таблица расписания по дням группа время</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ТаблицаРасписанияПоДнямГруппаВремяРасширеннаяПодсказка" id="392"/>
+					<ChildItems>
+						<InputField name="ТаблицаРасписанияПоДнямВремяНачала" id="367">
+							<DataPath>Объект.ТаблицаРасписанияДетализация.ВремяНачала</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>с</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТаблицаРасписанияПоДнямВремяНачалаКонтекстноеМеню" id="368"/>
+							<ExtendedTooltip name="ТаблицаРасписанияПоДнямВремяНачалаРасширеннаяПодсказка" id="369"/>
+						</InputField>
+						<InputField name="ТаблицаРасписанияПоДнямВремяОкончания" id="370">
+							<DataPath>Объект.ТаблицаРасписанияДетализация.ВремяОкончания</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>по</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТаблицаРасписанияПоДнямВремяОкончанияКонтекстноеМеню" id="371"/>
+							<ExtendedTooltip name="ТаблицаРасписанияПоДнямВремяОкончанияРасширеннаяПодсказка" id="372"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<InputField name="ТаблицаРасписанияПоДнямАудитория" id="373">
+					<DataPath>Объект.ТаблицаРасписанияДетализация.Аудитория</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблицаРасписанияПоДнямАудиторияКонтекстноеМеню" id="374"/>
+					<ExtendedTooltip name="ТаблицаРасписанияПоДнямАудиторияРасширеннаяПодсказка" id="375"/>
+				</InputField>
+				<InputField name="ТаблицаРасписанияПоДнямПредмет" id="376">
+					<DataPath>Объект.ТаблицаРасписанияДетализация.Предмет</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблицаРасписанияПоДнямПредметКонтекстноеМеню" id="377"/>
+					<ExtendedTooltip name="ТаблицаРасписанияПоДнямПредметРасширеннаяПодсказка" id="378"/>
+				</InputField>
+				<InputField name="ТаблицаРасписанияПоДнямТипЗанятия" id="379">
+					<DataPath>Объект.ТаблицаРасписанияДетализация.ТипЗанятия</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблицаРасписанияПоДнямТипЗанятияКонтекстноеМеню" id="380"/>
+					<ExtendedTooltip name="ТаблицаРасписанияПоДнямТипЗанятияРасширеннаяПодсказка" id="381"/>
+				</InputField>
+				<InputField name="ТаблицаРасписанияПоДнямПреподаватель" id="382">
+					<DataPath>Объект.ТаблицаРасписанияДетализация.Преподаватель</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблицаРасписанияПоДнямПреподавательКонтекстноеМеню" id="383"/>
+					<ExtendedTooltip name="ТаблицаРасписанияПоДнямПреподавательРасширеннаяПодсказка" id="384"/>
+				</InputField>
+				<InputField name="ТаблицаРасписанияПоДнямНомерПары" id="385">
+					<DataPath>Объект.ТаблицаРасписанияДетализация.НомерПары</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблицаРасписанияПоДнямНомерПарыКонтекстноеМеню" id="386"/>
+					<ExtendedTooltip name="ТаблицаРасписанияПоДнямНомерПарыРасширеннаяПодсказка" id="387"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ГП_РасписаниеЗанятийУпрощенный</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>

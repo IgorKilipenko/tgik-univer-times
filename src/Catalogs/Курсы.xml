@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="592dfceb-650c-450c-aec0-62151e8f0b60">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Курсы" category="Object">
+				<xr:TypeId>f0cd87a3-3a6c-41c7-bb63-f771827eb5c5</xr:TypeId>
+				<xr:ValueId>8e4e84d5-4ce2-4c94-8e9f-8d138197aade</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Курсы" category="Ref">
+				<xr:TypeId>ffe433fb-8b4e-414e-8988-bdcaeb85bfe6</xr:TypeId>
+				<xr:ValueId>ef46f512-026a-407e-8713-f9cca2f95af4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Курсы" category="Selection">
+				<xr:TypeId>afbdd5a3-dbb6-46db-ae14-0eb3ba87dd55</xr:TypeId>
+				<xr:ValueId>3e1b44ab-1ae8-4bf7-ae18-d1ce69b90218</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Курсы" category="List">
+				<xr:TypeId>f20c95b9-3d4c-4306-9259-4a85ea8f012e</xr:TypeId>
+				<xr:ValueId>9aa5bf13-94c9-4081-90fe-9702f594e4b7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Курсы" category="Manager">
+				<xr:TypeId>0e4c4830-4215-48ee-a85d-cc822b7ddb26</xr:TypeId>
+				<xr:ValueId>235c75f8-309c-4ed7-a710-73ff28bb6642</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Курсы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>71bd9cd8-92f6-4cbd-8323-169a526930b9</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

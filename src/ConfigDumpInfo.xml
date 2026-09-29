@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="Catalog.Дисциплины" id="fae88ce4-04ea-4a76-893b-f944fcbe77e0" configVersion="8014d5128f279db2407c08d4a2f3a23e488f4b4c"/>
+		<Metadata name="Catalog.Курсы" id="592dfceb-650c-450c-aec0-62151e8f0b60" configVersion="b7afc4b95558e3846994fec4cc1bebcd94c420bc"/>
+		<Metadata name="Catalog.Организации" id="9c7948c5-83fa-45c9-be6b-4cafa58eaffd" configVersion="aeb335a987fb7730040bdd9e789c10887411b9ca"/>
+		<Metadata name="Catalog.Сотрудники" id="de7c6b04-af15-45e6-9eba-494488f253ef" configVersion="20d0ba4e276a8dbd10e9f6c0d774c5341d246ec7"/>
+		<Metadata name="Catalog.СтруктураУниверситета" id="7f3a2481-4234-48fa-aa61-6381890a5c4b" configVersion="9dd5a8706de3acd8cf8a52df8ce8f8a64ca52442"/>
+		<Metadata name="Catalog.УчебныеГруппы" id="2308ca77-d7af-4986-a23b-566d3cdb6eba" configVersion="3fc520f71955b400a5d3e9d0a1ff3a9813f9f111"/>
+		<Metadata name="CommonModule.ГП_РаботаСРасписаниемЗанятийКлиентСервер" id="f5ebbefd-d60c-44ca-a6c6-e6951d29d577" configVersion="b95a82bac302d7cd97e8855fe93d74d3dccdb4ba"/>
+		<Metadata name="CommonModule.ГП_РаботаСРасписаниемЗанятийКлиентСервер.Module" id="f5ebbefd-d60c-44ca-a6c6-e6951d29d577.0" configVersion="8e54765db3be0912aaff6a31840409dae42859ca"/>
+		<Metadata name="Configuration.ГП_РасписаниеЗанятий" id="6382020b-b7e2-404a-b45d-6afb4a6fb589" configVersion="f87f9ee70bd9010a6ed222912fd99d81dfc3261a"/>
+		<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный" id="324a7bc9-7590-4697-894c-ee49aadf879d" configVersion="93e446d804cbeb788ee7b367cee3faaea9ffbdf9">
+			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.TabularSection.ТаблицаРасписанияДетализация.Attribute.ВремяНачала" id="0806e34f-d45b-47a0-969e-8580d673363b"/>
+			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.TabularSection.ТаблицаРасписанияДетализация.Attribute.Аудитория" id="21dc7347-aacd-4f24-94a7-a0296cf2b3bc"/>
+			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.TabularSection.ТаблицаРасписанияДетализация.Attribute.НомерДня" id="287efcca-ae90-4582-ad60-7b1b8bae5ee7"/>
+			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.TabularSection.ТаблицаРасписанияДетализация.Attribute.ТипЗанятия" id="2cee72bd-f42c-4315-abbf-d0456841d473"/>
+			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.Attribute.Организация" id="31cc68b4-7470-4b76-af63-f41408b05a48"/>
+			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.TabularSection.ТаблицаРасписания" id="475b8e10-edce-4ae4-a6d2-66187e0f9ede"/>
+			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.TabularSection.ТаблицаРасписания.Attribute.НомерДня" id="4c0e6d01-2ece-4da3-adc6-ea4ec8abaedd"/>
+			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.Attribute.Курс" id="5c739fdd-9501-49a5-adf4-969245511d53"/>
+			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.TabularSection.ТаблицаРасписанияДетализация.Attribute.Преподаватель" id="6d9b0382-f495-47c6-a308-b3e379ef71eb"/>
+			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.TabularSection.ТаблицаРасписанияДетализация.Attribute.ВремяОкончания" id="8f06a131-ccc1-4263-9c24-0b3b9dc0d109"/>
+			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.TabularSection.ТаблицаРасписанияДетализация.Attribute.НомерПары" id="96701a3e-62b9-4c7d-a90c-3eec95ac2a84"/>
+			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.Attribute.Факультет" id="9e376d0f-9f6b-4843-bf55-bffdfbcc6308"/>
+			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.TabularSection.ТаблицаРасписанияДетализация.Attribute.Используется" id="aec3bf47-3397-4d5f-b9ce-122fdaa2c425"/>
+			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.TabularSection.ТаблицаРасписанияДетализация" id="b0b79f28-355a-4d0d-a5f7-c244561178d4"/>
+			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.TabularSection.ТаблицаРасписанияДетализация.Attribute.Предмет" id="da0b20bb-2748-4224-96e2-8fcb8e582b0b"/>
+			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.TabularSection.ТаблицаРасписания.Attribute.Используется" id="e35cc4f2-97e0-4055-a406-4423c7e360c2"/>
+			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.Attribute.Группа" id="e86a49df-6c94-4a5c-8bd3-d9dfdd346428"/>
+			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.TabularSection.ТаблицаРасписания.Attribute.ПредставлениеДня" id="fc8579ad-94ec-469c-a80f-6eba08cffce7"/>
+		</Metadata>
+		<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.Form.ФормаДокумента" id="c171df05-8b74-4066-b071-931b34be8949" configVersion="308e4314afe89e29807eec0414d9295d4dba4af5"/>
+		<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.Form.ФормаДокумента.Form" id="c171df05-8b74-4066-b071-931b34be8949.0" configVersion="c2a66ff41f35cf61d1f02b008b296b15530c6a81"/>
+		<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.ManagerModule" id="324a7bc9-7590-4697-894c-ee49aadf879d.2" configVersion="afd7b899f4603cc0c780a8bb0d2736ad0b967a77"/>
+		<Metadata name="Language.Русский" id="99cab40b-2211-4bb5-8c8f-0d69ef8fb2c2" configVersion="f5f546d46d8cff16b1fdc7bd85f9ad42a2e41afd"/>
+		<Metadata name="Subsystem.ГП_F00257332_РасписаниеЗанятий" id="4ee06925-d125-4b07-bbca-5c23b7111203" configVersion="6ae0ed343ff521f57849778f35ce1158714be46f"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
