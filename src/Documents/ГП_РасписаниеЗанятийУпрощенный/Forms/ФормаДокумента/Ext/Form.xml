@@ -5,6 +5,7 @@
 	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
 		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
@@ -126,6 +127,60 @@
 							<ContextMenu name="ГруппаКонтекстноеМеню" id="17"/>
 							<ExtendedTooltip name="ГруппаРасширеннаяПодсказка" id="18"/>
 						</InputField>
+						<UsualGroup name="ГруппаПериод" id="396">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Период</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа период</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>None</Representation>
+							<ExtendedTooltip name="ГруппаПериодРасширеннаяПодсказка" id="397"/>
+							<ChildItems>
+								<InputField name="ДатаНачала" id="398">
+									<DataPath>Объект.ДатаНачала</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>с</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<EditFormat>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ДФ=dd.MM.yyyy</v8:content>
+										</v8:item>
+									</EditFormat>
+									<ContextMenu name="ДатаНачалаКонтекстноеМеню" id="399"/>
+									<ExtendedTooltip name="ДатаНачалаРасширеннаяПодсказка" id="400"/>
+								</InputField>
+								<InputField name="ДатаОкончания" id="401">
+									<DataPath>Объект.ДатаОкончания</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>по</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<EditFormat>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ДФ=dd.MM.yyyy</v8:content>
+										</v8:item>
+									</EditFormat>
+									<ContextMenu name="ДатаОкончанияКонтекстноеМеню" id="402"/>
+									<ExtendedTooltip name="ДатаОкончанияРасширеннаяПодсказка" id="403"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
 					</ChildItems>
 				</UsualGroup>
 			</ChildItems>
@@ -258,7 +313,7 @@
 			</Events>
 			<ChildItems>
 				<CheckBoxField name="ТаблицаРасписанияПоДнямИспользуется" id="393">
-					<DataPath>Объект.ТаблицаРасписанияДетализация.Используется</DataPath>
+					<DataPath>Объект.ТаблицаРасписанияДетализация.УдалитьИспользуется</DataPath>
 					<Visible>false</Visible>
 					<TitleLocation>None</TitleLocation>
 					<EditMode>EnterOnInput</EditMode>
@@ -268,10 +323,18 @@
 				</CheckBoxField>
 				<LabelField name="ТаблицаРасписанияПоДнямНомерСтроки" id="361">
 					<DataPath>Объект.ТаблицаРасписанияДетализация.LineNumber</DataPath>
+					<Visible>false</Visible>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="ТаблицаРасписанияПоДнямНомерСтрокиКонтекстноеМеню" id="362"/>
 					<ExtendedTooltip name="ТаблицаРасписанияПоДнямНомерСтрокиРасширеннаяПодсказка" id="363"/>
 				</LabelField>
+				<InputField name="ТаблицаРасписанияПоДнямНомерПары" id="385">
+					<DataPath>Объект.ТаблицаРасписанияДетализация.НомерПары</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблицаРасписанияПоДнямНомерПарыКонтекстноеМеню" id="386"/>
+					<ExtendedTooltip name="ТаблицаРасписанияПоДнямНомерПарыРасширеннаяПодсказка" id="387"/>
+				</InputField>
 				<InputField name="ТаблицаРасписанияПоДнямНомерДня" id="364">
 					<DataPath>Объект.ТаблицаРасписанияДетализация.НомерДня</DataPath>
 					<Visible>false</Visible>
@@ -351,13 +414,6 @@
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ТаблицаРасписанияПоДнямПреподавательКонтекстноеМеню" id="383"/>
 					<ExtendedTooltip name="ТаблицаРасписанияПоДнямПреподавательРасширеннаяПодсказка" id="384"/>
-				</InputField>
-				<InputField name="ТаблицаРасписанияПоДнямНомерПары" id="385">
-					<DataPath>Объект.ТаблицаРасписанияДетализация.НомерПары</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ТаблицаРасписанияПоДнямНомерПарыКонтекстноеМеню" id="386"/>
-					<ExtendedTooltip name="ТаблицаРасписанияПоДнямНомерПарыРасширеннаяПодсказка" id="387"/>
 				</InputField>
 			</ChildItems>
 		</Table>
