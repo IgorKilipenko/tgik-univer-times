@@ -19,6 +19,12 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ГП_РасписаниеЗанятийУпрощенный</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ГП_РаботаСРасписаниемЗанятийКлиентСервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГП_РасписаниеЗанятийУпрощенный</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ГП_СайтРасписания</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ГП_СайтРасписанияПереопределяемый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ГП_СайтРасписанияСлужебный</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ГП_АдресСайтаРасписания</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ГП_ИспользоватьВыгрузкуРасписанияНаСайт</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.ГП_ИспользоватьВыгрузкуРасписанияНаСайт</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
