@@ -29,6 +29,8 @@
 			<Comment/>
 			<ExtendedConfigurationObject>8a050366-4ac0-41d7-83ff-55908985c8c5</ExtendedConfigurationObject>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Form>ГП_ФормаВыбораАудитории</Form>
+		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

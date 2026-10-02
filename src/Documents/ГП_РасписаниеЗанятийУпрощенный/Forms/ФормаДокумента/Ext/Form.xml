@@ -387,13 +387,43 @@
 						</InputField>
 					</ChildItems>
 				</ColumnGroup>
-				<InputField name="ТаблицаРасписанияПоДнямАудитория" id="373">
-					<DataPath>Объект.ТаблицаРасписанияДетализация.Аудитория</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ТаблицаРасписанияПоДнямАудиторияКонтекстноеМеню" id="374"/>
-					<ExtendedTooltip name="ТаблицаРасписанияПоДнямАудиторияРасширеннаяПодсказка" id="375"/>
-				</InputField>
+				<ColumnGroup name="ТаблицаРасписанияДетализацияГруппаАудитория" id="404">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Таблица расписания детализация группа аудитория</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Таблица расписания детализация группа аудитория</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ТаблицаРасписанияДетализацияГруппаАудиторияРасширеннаяПодсказка" id="405"/>
+					<ChildItems>
+						<InputField name="ТаблицаРасписанияПоДнямАудитория" id="373">
+							<DataPath>Объект.ТаблицаРасписанияДетализация.Аудитория</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТаблицаРасписанияПоДнямАудиторияКонтекстноеМеню" id="374"/>
+							<ExtendedTooltip name="ТаблицаРасписанияПоДнямАудиторияРасширеннаяПодсказка" id="375"/>
+							<Events>
+								<Event name="StartChoice">ТаблицаРасписанияПоДнямАудиторияНачалоВыбора</Event>
+							</Events>
+						</InputField>
+						<InputField name="ТаблицаРасписанияДетализацияКорпус" id="406">
+							<DataPath>Объект.ТаблицаРасписанияДетализация.Корпус</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТаблицаРасписанияДетализацияКорпусКонтекстноеМеню" id="407"/>
+							<ExtendedTooltip name="ТаблицаРасписанияДетализацияКорпусРасширеннаяПодсказка" id="408"/>
+							<Events>
+								<Event name="StartChoice">ТаблицаРасписанияДетализацияКорпусНачалоВыбора</Event>
+							</Events>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
 				<InputField name="ТаблицаРасписанияПоДнямПредмет" id="376">
 					<DataPath>Объект.ТаблицаРасписанияДетализация.Предмет</DataPath>
 					<EditMode>EnterOnInput</EditMode>
