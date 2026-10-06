@@ -8,6 +8,7 @@
 		<Metadata name="Catalog.СтруктураУниверситета" id="7f3a2481-4234-48fa-aa61-6381890a5c4b" configVersion="c70773415c37b999a7e6993c4f0421c035c7b07a"/>
 		<Metadata name="Catalog.СтруктураУниверситета.Form.ГП_ФормаВыбораАудитории" id="cf9ae525-fd33-4bd2-852c-f5cb1a8531f8" configVersion="6218f1ddff6c11cd09b8394897991389d6346e8c"/>
 		<Metadata name="Catalog.СтруктураУниверситета.Form.ГП_ФормаВыбораАудитории.Form" id="cf9ae525-fd33-4bd2-852c-f5cb1a8531f8.0" configVersion="b4cf1fad8c51de550daad481e9ef83c4c6741292"/>
+		<Metadata name="Catalog.УчебныеГоды" id="5336198d-bf5e-41c4-a371-bf0316d39598" configVersion="de915c0dceb3ed7bb2da47665e617d5b2db70ec0"/>
 		<Metadata name="Catalog.УчебныеГруппы" id="2308ca77-d7af-4986-a23b-566d3cdb6eba" configVersion="3fc520f71955b400a5d3e9d0a1ff3a9813f9f111"/>
 		<Metadata name="Catalog.ФормаОбучения" id="7c225b9f-d75f-40eb-9670-b63147684799" configVersion="5fbd12788e7611e809b2bb70b41ca82b655478b8"/>
 		<Metadata name="CommonModule.ГП_РаботаСРасписаниемЗанятийКлиентСервер" id="f5ebbefd-d60c-44ca-a6c6-e6951d29d577" configVersion="b95a82bac302d7cd97e8855fe93d74d3dccdb4ba"/>
@@ -22,13 +23,13 @@
 		<Metadata name="CommonModule.РаботаВБезопасномРежимеПереопределяемый.Module" id="6c02eb93-acf8-4b41-beb8-3969252bd3c0.0" configVersion="616e97d14df780b08e55f4a7efa233ffc51e0055"/>
 		<Metadata name="CommonModule.РегламентныеЗаданияПереопределяемый" id="4674159f-4875-4952-bdbc-df0915952060" configVersion="c00c1005f14bfb597d939ad107ec9a18a487eaa1"/>
 		<Metadata name="CommonModule.РегламентныеЗаданияПереопределяемый.Module" id="4674159f-4875-4952-bdbc-df0915952060.0" configVersion="3305b0fd06a6bdede98e7c19bc06615d8bb21b5f"/>
-		<Metadata name="Configuration.ГП_РасписаниеЗанятий" id="6382020b-b7e2-404a-b45d-6afb4a6fb589" configVersion="297b1cf5511f6130e7bd5c7038bde650b04d5de7"/>
+		<Metadata name="Configuration.ГП_РасписаниеЗанятий" id="6382020b-b7e2-404a-b45d-6afb4a6fb589" configVersion="690605c3f2d2ad01d99dba7352b10dff710b3f80"/>
 		<Metadata name="Constant.ГП_АдресСайтаРасписания" id="91ae9674-1f85-49fb-912d-9fe02e54a4ff" configVersion="2381aa00f3cd507bf7e6a50b3aa3e551a4f1ca23"/>
 		<Metadata name="Constant.ГП_ИспользоватьВыгрузкуРасписанияНаСайт" id="2c9cae43-aca6-4a31-b1f1-871371862f7c" configVersion="be945d1311490bf2a606e36b07180544c1242e87"/>
 		<Metadata name="DataProcessor.ГП_НастройкиСайтаРасписания" id="949ac19a-d8a8-403b-ba6f-7399b53d2bd7" configVersion="031ef39f301c22ee947a7a06a3adf79eb473e4af"/>
 		<Metadata name="DataProcessor.ГП_НастройкиСайтаРасписания.Form.Форма" id="43a59799-5502-494c-b75b-61fc80677f96" configVersion="b47478e3d8cdca830f8ef65b9ba1619f08d79e33"/>
 		<Metadata name="DataProcessor.ГП_НастройкиСайтаРасписания.Form.Форма.Form" id="43a59799-5502-494c-b75b-61fc80677f96.0" configVersion="dbed27ab3e00e2a140faead38a6056bfc11453cc"/>
-		<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный" id="324a7bc9-7590-4697-894c-ee49aadf879d" configVersion="14f31d425a1a781bf6f859c807c98e30e4c101b9">
+		<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный" id="324a7bc9-7590-4697-894c-ee49aadf879d" configVersion="38db5127617363aef44c5d690c62c59e6c526bae">
 			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.TabularSection.ТаблицаРасписанияДетализация.Attribute.ВремяНачала" id="0806e34f-d45b-47a0-969e-8580d673363b"/>
 			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.Attribute.ДатаНачала" id="14f4fa5d-770f-459d-98ac-1b1a67575201"/>
 			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.TabularSection.ТаблицаРасписанияДетализация.Attribute.Корпус" id="1998c14c-ef57-44f2-b03c-31924358d539"/>
@@ -47,13 +48,14 @@
 			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.Attribute.Факультет" id="9e376d0f-9f6b-4843-bf55-bffdfbcc6308"/>
 			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.TabularSection.ТаблицаРасписанияДетализация.Attribute.УдалитьИспользуется" id="aec3bf47-3397-4d5f-b9ce-122fdaa2c425"/>
 			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.TabularSection.ТаблицаРасписанияДетализация" id="b0b79f28-355a-4d0d-a5f7-c244561178d4"/>
+			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.Attribute.УчебныйГод" id="bcf855ed-e46d-4c31-b739-a12f343176ab"/>
 			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.TabularSection.ТаблицаРасписанияДетализация.Attribute.Предмет" id="da0b20bb-2748-4224-96e2-8fcb8e582b0b"/>
 			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.TabularSection.ТаблицаРасписания.Attribute.Используется" id="e35cc4f2-97e0-4055-a406-4423c7e360c2"/>
 			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.Attribute.Группа" id="e86a49df-6c94-4a5c-8bd3-d9dfdd346428"/>
 			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.TabularSection.ТаблицаРасписания.Attribute.ПредставлениеДня" id="fc8579ad-94ec-469c-a80f-6eba08cffce7"/>
 		</Metadata>
 		<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.Form.ФормаДокумента" id="c171df05-8b74-4066-b071-931b34be8949" configVersion="308e4314afe89e29807eec0414d9295d4dba4af5"/>
-		<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.Form.ФормаДокумента.Form" id="c171df05-8b74-4066-b071-931b34be8949.0" configVersion="8ee946c6f0c0259801815f64b7c4a2a2596cbd60"/>
+		<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.Form.ФормаДокумента.Form" id="c171df05-8b74-4066-b071-931b34be8949.0" configVersion="d48a1b1a443cdea2aaecf757839a93ea918c311c"/>
 		<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.ManagerModule" id="324a7bc9-7590-4697-894c-ee49aadf879d.2" configVersion="ede316a9d16d6d9d897413d7ce5a5b404bbae260"/>
 		<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.ObjectModule" id="324a7bc9-7590-4697-894c-ee49aadf879d.0" configVersion="fec8615c67678da2c0ada5e65528cd2a4a27abff"/>
 		<Metadata name="FunctionalOption.ГП_ИспользоватьВыгрузкуРасписанияНаСайт" id="09bf7fb2-183c-411e-aa0b-47a4cd523b46" configVersion="4200808619e1b2349e516fef0f327597bb547995"/>
@@ -65,12 +67,13 @@
 		<Metadata name="InformationRegister.ГП_ИдентификаторыДляСайтаРасписания.Form.ФормаЗаписи.Form" id="d279355a-4a6e-45b5-b7e5-dbc34eefd846.0" configVersion="3cf42566f4a9e10465c560ab545c144c92ffe49c"/>
 		<Metadata name="InformationRegister.ГП_ИдентификаторыДляСайтаРасписания.ManagerModule" id="6bcb6331-c578-4cfb-8e87-e59af28873f6.2" configVersion="f6e3908f0e9371e20b560a8e10de2cc45e28b4e2"/>
 		<Metadata name="InformationRegister.ГП_ИдентификаторыДляСайтаРасписания.RecordSetModule" id="6bcb6331-c578-4cfb-8e87-e59af28873f6.1" configVersion="67addc6469d183f5cf9cf3b004905f69a156eee9"/>
-		<Metadata name="InformationRegister.ГП_РасписаниеЗанятийУпрощенный" id="7cd1829e-985a-47ef-b586-d653776724c0" configVersion="edba11d25aaca26ea8df1b522faeba14f9eadeb2">
+		<Metadata name="InformationRegister.ГП_РасписаниеЗанятийУпрощенный" id="7cd1829e-985a-47ef-b586-d653776724c0" configVersion="368df3f9a60660223da2b12c6f4f309e358889c1">
 			<Metadata name="InformationRegister.ГП_РасписаниеЗанятийУпрощенный.Resource.Корпус" id="04c0c47c-5362-4527-8ea4-ec2bba22d01c"/>
 			<Metadata name="InformationRegister.ГП_РасписаниеЗанятийУпрощенный.Dimension.ДатаЗанятий" id="1949aa46-e479-4535-93f6-6bd9d3550b5f"/>
 			<Metadata name="InformationRegister.ГП_РасписаниеЗанятийУпрощенный.Dimension.Факультет" id="3b70cf48-e0bf-43dd-976a-a1d2de4b87fd"/>
 			<Metadata name="InformationRegister.ГП_РасписаниеЗанятийУпрощенный.Resource.ТипЗанятия" id="5beaa767-8ec8-4acd-8053-14d8a9cae943"/>
 			<Metadata name="InformationRegister.ГП_РасписаниеЗанятийУпрощенный.Dimension.ФормаОбучения" id="5e7f95d4-a075-47f2-a445-a4209e9d96d6"/>
+			<Metadata name="InformationRegister.ГП_РасписаниеЗанятийУпрощенный.Attribute.НетЗанятий" id="63226793-6d5f-4cbf-9780-e1b460dd7522"/>
 			<Metadata name="InformationRegister.ГП_РасписаниеЗанятийУпрощенный.Resource.Преподаватель" id="6fec5431-b2aa-43b2-a247-4d14cba550dd"/>
 			<Metadata name="InformationRegister.ГП_РасписаниеЗанятийУпрощенный.Resource.Предмет" id="914dca07-042c-4a55-baaf-5fb59f4dac24"/>
 			<Metadata name="InformationRegister.ГП_РасписаниеЗанятийУпрощенный.Dimension.Группа" id="b0591ac8-c6d3-4db3-9960-365486a825e4"/>
@@ -78,6 +81,7 @@
 			<Metadata name="InformationRegister.ГП_РасписаниеЗанятийУпрощенный.Resource.ВремяНачала" id="beb345cb-fd91-411e-978d-19c03d3c64d1"/>
 			<Metadata name="InformationRegister.ГП_РасписаниеЗанятийУпрощенный.Resource.Аудитория" id="e3dbb205-b993-48d0-ab54-e96426d64612"/>
 			<Metadata name="InformationRegister.ГП_РасписаниеЗанятийУпрощенный.Dimension.Организация" id="ece0b6a4-b702-4852-bb24-702a8278f3e3"/>
+			<Metadata name="InformationRegister.ГП_РасписаниеЗанятийУпрощенный.Dimension.УчебныйГод" id="f4bfc6a4-70ae-48f8-92e3-766177bb6809"/>
 			<Metadata name="InformationRegister.ГП_РасписаниеЗанятийУпрощенный.Dimension.НомерПары" id="f566c61d-8c8d-4a43-9074-307feadeb9cb"/>
 			<Metadata name="InformationRegister.ГП_РасписаниеЗанятийУпрощенный.Dimension.Курс" id="f5a343ab-c782-47bf-8184-19a5bb5c7671"/>
 			<Metadata name="InformationRegister.ГП_РасписаниеЗанятийУпрощенный.Resource.ВремяОкончания" id="fe0faa5f-1008-44de-ae65-7b2ff41e8a17"/>

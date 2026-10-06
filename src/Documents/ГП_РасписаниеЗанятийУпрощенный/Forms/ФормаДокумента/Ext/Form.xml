@@ -139,6 +139,12 @@
 							<ContextMenu name="ГруппаКонтекстноеМеню" id="17"/>
 							<ExtendedTooltip name="ГруппаРасширеннаяПодсказка" id="18"/>
 						</InputField>
+						<InputField name="УчебныйГод" id="412">
+							<DataPath>Объект.УчебныйГод</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="УчебныйГодКонтекстноеМеню" id="413"/>
+							<ExtendedTooltip name="УчебныйГодРасширеннаяПодсказка" id="414"/>
+						</InputField>
 						<UsualGroup name="ГруппаПериод" id="396">
 							<Title>
 								<v8:item>

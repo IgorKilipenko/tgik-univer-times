@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.0.0.0-dev5</Version>
+			<Version>1.0.0.0-dev6</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -83,6 +83,7 @@
 			<Catalog>УчебныеГруппы</Catalog>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>ФормаОбучения</Catalog>
+			<Catalog>УчебныеГоды</Catalog>
 			<Document>ГП_РасписаниеЗанятийУпрощенный</Document>
 			<DataProcessor>ГП_НастройкиСайтаРасписания</DataProcessor>
 			<InformationRegister>ГП_РасписаниеЗанятийУпрощенный</InformationRegister>
