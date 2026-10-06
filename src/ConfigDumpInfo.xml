@@ -12,16 +12,21 @@
 		<Metadata name="CommonModule.ГП_РаботаСРасписаниемЗанятийКлиентСервер" id="f5ebbefd-d60c-44ca-a6c6-e6951d29d577" configVersion="b95a82bac302d7cd97e8855fe93d74d3dccdb4ba"/>
 		<Metadata name="CommonModule.ГП_РаботаСРасписаниемЗанятийКлиентСервер.Module" id="f5ebbefd-d60c-44ca-a6c6-e6951d29d577.0" configVersion="8e54765db3be0912aaff6a31840409dae42859ca"/>
 		<Metadata name="CommonModule.ГП_СайтРасписания" id="75ca939f-36a9-4de2-9ddf-60f594520e4c" configVersion="d0b2f4a1b6dc90d2aa1da6be7dc58f3be45264b0"/>
-		<Metadata name="CommonModule.ГП_СайтРасписания.Module" id="75ca939f-36a9-4de2-9ddf-60f594520e4c.0" configVersion="6672f3b9ab6b67fef929b1df7a912fd8faf77de4"/>
+		<Metadata name="CommonModule.ГП_СайтРасписания.Module" id="75ca939f-36a9-4de2-9ddf-60f594520e4c.0" configVersion="6c4db74c80a8e282d8a38a6f1987e62507d8e313"/>
 		<Metadata name="CommonModule.ГП_СайтРасписанияПереопределяемый" id="ae146fd9-e27a-4afa-95a2-66866ddf08b6" configVersion="0bb932e4167d08a49fc0e20cba883ccf20085bbc"/>
-		<Metadata name="CommonModule.ГП_СайтРасписанияПереопределяемый.Module" id="ae146fd9-e27a-4afa-95a2-66866ddf08b6.0" configVersion="e9539331a85623bbbfb1787f8e80558eda48dae2"/>
+		<Metadata name="CommonModule.ГП_СайтРасписанияПереопределяемый.Module" id="ae146fd9-e27a-4afa-95a2-66866ddf08b6.0" configVersion="6110ad7b59c35f8e13af32c4111ee69050da2942"/>
 		<Metadata name="CommonModule.ГП_СайтРасписанияСлужебный" id="eb1524ec-7c43-41f5-bd4c-a0684c055778" configVersion="6491b6a80c3a66b38a012e4d518bc7c928bded18"/>
-		<Metadata name="CommonModule.ГП_СайтРасписанияСлужебный.Module" id="eb1524ec-7c43-41f5-bd4c-a0684c055778.0" configVersion="f7ed391ebed75890c6f0b4e6d51220640caa9733"/>
+		<Metadata name="CommonModule.ГП_СайтРасписанияСлужебный.Module" id="eb1524ec-7c43-41f5-bd4c-a0684c055778.0" configVersion="7b7a6fbfcdada4703b79347464d15bf4ea633182"/>
 		<Metadata name="CommonModule.РаботаВБезопасномРежимеПереопределяемый" id="6c02eb93-acf8-4b41-beb8-3969252bd3c0" configVersion="200306d45d22292346f055fce7a51d64cb58a8c2"/>
 		<Metadata name="CommonModule.РаботаВБезопасномРежимеПереопределяемый.Module" id="6c02eb93-acf8-4b41-beb8-3969252bd3c0.0" configVersion="616e97d14df780b08e55f4a7efa233ffc51e0055"/>
-		<Metadata name="Configuration.ГП_РасписаниеЗанятий" id="6382020b-b7e2-404a-b45d-6afb4a6fb589" configVersion="b7ab96fc09e37739e154d6d3101fbab94bae20f3"/>
+		<Metadata name="CommonModule.РегламентныеЗаданияПереопределяемый" id="4674159f-4875-4952-bdbc-df0915952060" configVersion="c00c1005f14bfb597d939ad107ec9a18a487eaa1"/>
+		<Metadata name="CommonModule.РегламентныеЗаданияПереопределяемый.Module" id="4674159f-4875-4952-bdbc-df0915952060.0" configVersion="3305b0fd06a6bdede98e7c19bc06615d8bb21b5f"/>
+		<Metadata name="Configuration.ГП_РасписаниеЗанятий" id="6382020b-b7e2-404a-b45d-6afb4a6fb589" configVersion="0b4fded0604612bc0be7181547c19f3d796e0279"/>
 		<Metadata name="Constant.ГП_АдресСайтаРасписания" id="91ae9674-1f85-49fb-912d-9fe02e54a4ff" configVersion="2381aa00f3cd507bf7e6a50b3aa3e551a4f1ca23"/>
 		<Metadata name="Constant.ГП_ИспользоватьВыгрузкуРасписанияНаСайт" id="2c9cae43-aca6-4a31-b1f1-871371862f7c" configVersion="be945d1311490bf2a606e36b07180544c1242e87"/>
+		<Metadata name="DataProcessor.ГП_НастройкиСайтаРасписания" id="949ac19a-d8a8-403b-ba6f-7399b53d2bd7" configVersion="031ef39f301c22ee947a7a06a3adf79eb473e4af"/>
+		<Metadata name="DataProcessor.ГП_НастройкиСайтаРасписания.Form.Форма" id="43a59799-5502-494c-b75b-61fc80677f96" configVersion="b47478e3d8cdca830f8ef65b9ba1619f08d79e33"/>
+		<Metadata name="DataProcessor.ГП_НастройкиСайтаРасписания.Form.Форма.Form" id="43a59799-5502-494c-b75b-61fc80677f96.0" configVersion="ceaf7924aa87758713d4381966903ad128b99860"/>
 		<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный" id="324a7bc9-7590-4697-894c-ee49aadf879d" configVersion="f0117e9c74e05328e487b9e60ef611688d8c4d2a">
 			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.TabularSection.ТаблицаРасписанияДетализация.Attribute.ВремяНачала" id="0806e34f-d45b-47a0-969e-8580d673363b"/>
 			<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.Attribute.ДатаНачала" id="14f4fa5d-770f-459d-98ac-1b1a67575201"/>
@@ -50,6 +55,14 @@
 		<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.ManagerModule" id="324a7bc9-7590-4697-894c-ee49aadf879d.2" configVersion="ce34bb3463d4ea446281c5233ebf4d75273e0593"/>
 		<Metadata name="Document.ГП_РасписаниеЗанятийУпрощенный.ObjectModule" id="324a7bc9-7590-4697-894c-ee49aadf879d.0" configVersion="fec8615c67678da2c0ada5e65528cd2a4a27abff"/>
 		<Metadata name="FunctionalOption.ГП_ИспользоватьВыгрузкуРасписанияНаСайт" id="09bf7fb2-183c-411e-aa0b-47a4cd523b46" configVersion="4200808619e1b2349e516fef0f327597bb547995"/>
+		<Metadata name="InformationRegister.ГП_ИдентификаторыДляСайтаРасписания" id="6bcb6331-c578-4cfb-8e87-e59af28873f6" configVersion="484ab06b02e014e505d77a32acfdbc065361c476">
+			<Metadata name="InformationRegister.ГП_ИдентификаторыДляСайтаРасписания.Resource.Идентификатор" id="1a0f6ecf-c9aa-44ed-9c06-27e580afc8f0"/>
+			<Metadata name="InformationRegister.ГП_ИдентификаторыДляСайтаРасписания.Dimension.Объект" id="5883ea2e-df45-4c9e-be14-db87ef1e5a41"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ГП_ИдентификаторыДляСайтаРасписания.Form.ФормаЗаписи" id="d279355a-4a6e-45b5-b7e5-dbc34eefd846" configVersion="1800098b997556505692ccd2fc652c89f19c10c5"/>
+		<Metadata name="InformationRegister.ГП_ИдентификаторыДляСайтаРасписания.Form.ФормаЗаписи.Form" id="d279355a-4a6e-45b5-b7e5-dbc34eefd846.0" configVersion="29bdb29f43fb5ba2f5484888effb343b3d9d521c"/>
+		<Metadata name="InformationRegister.ГП_ИдентификаторыДляСайтаРасписания.ManagerModule" id="6bcb6331-c578-4cfb-8e87-e59af28873f6.2" configVersion="f6e3908f0e9371e20b560a8e10de2cc45e28b4e2"/>
+		<Metadata name="InformationRegister.ГП_ИдентификаторыДляСайтаРасписания.RecordSetModule" id="6bcb6331-c578-4cfb-8e87-e59af28873f6.1" configVersion="67addc6469d183f5cf9cf3b004905f69a156eee9"/>
 		<Metadata name="InformationRegister.ГП_РасписаниеЗанятийУпрощенный" id="7cd1829e-985a-47ef-b586-d653776724c0" configVersion="2ac2cdeff8c9f555d5b655c6f14fd60ea3176d70">
 			<Metadata name="InformationRegister.ГП_РасписаниеЗанятийУпрощенный.Resource.Корпус" id="04c0c47c-5362-4527-8ea4-ec2bba22d01c"/>
 			<Metadata name="InformationRegister.ГП_РасписаниеЗанятийУпрощенный.Dimension.ДатаЗанятий" id="1949aa46-e479-4535-93f6-6bd9d3550b5f"/>
@@ -68,8 +81,8 @@
 		</Metadata>
 		<Metadata name="Language.Русский" id="99cab40b-2211-4bb5-8c8f-0d69ef8fb2c2" configVersion="f5f546d46d8cff16b1fdc7bd85f9ad42a2e41afd"/>
 		<Metadata name="Role.ГП_РаботаСРасписаниемЗанятий" id="ec429ece-43a7-4abe-9b9f-e6bbc5510752" configVersion="92926f9ecc68293e03fdfe8775b12962215efc88"/>
-		<Metadata name="Role.ГП_РаботаСРасписаниемЗанятий.Rights" id="ec429ece-43a7-4abe-9b9f-e6bbc5510752.0" configVersion="a7b8360bd6236519383f80a8e53614f5dafc50b4"/>
+		<Metadata name="Role.ГП_РаботаСРасписаниемЗанятий.Rights" id="ec429ece-43a7-4abe-9b9f-e6bbc5510752.0" configVersion="2d8d4508624ee2e694ce250c93d96f26ade8cd1d"/>
 		<Metadata name="ScheduledJob.ГП_ВыгрузкаРасписанияНаСайт" id="c06d1349-6411-4fab-8202-37bbf190acfd" configVersion="e3f4bf386f044fba95f812b78a3a8040249a7469"/>
-		<Metadata name="Subsystem.ГП_F00257332_РасписаниеЗанятий" id="4ee06925-d125-4b07-bbca-5c23b7111203" configVersion="1ab91f6c2d1c79358aa98cd23db098f92fec1226"/>
+		<Metadata name="Subsystem.ГП_F00257332_РасписаниеЗанятий" id="4ee06925-d125-4b07-bbca-5c23b7111203" configVersion="d36fcfbba3d630226cfe588a45a158a1c432015c"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

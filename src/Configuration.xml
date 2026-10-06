@@ -70,6 +70,7 @@
 			<CommonModule>ГП_СайтРасписанияПереопределяемый</CommonModule>
 			<CommonModule>ГП_СайтРасписанияСлужебный</CommonModule>
 			<CommonModule>РаботаВБезопасномРежимеПереопределяемый</CommonModule>
+			<CommonModule>РегламентныеЗаданияПереопределяемый</CommonModule>
 			<ScheduledJob>ГП_ВыгрузкаРасписанияНаСайт</ScheduledJob>
 			<FunctionalOption>ГП_ИспользоватьВыгрузкуРасписанияНаСайт</FunctionalOption>
 			<Constant>ГП_АдресСайтаРасписания</Constant>
@@ -81,7 +82,9 @@
 			<Catalog>УчебныеГруппы</Catalog>
 			<Catalog>Сотрудники</Catalog>
 			<Document>ГП_РасписаниеЗанятийУпрощенный</Document>
+			<DataProcessor>ГП_НастройкиСайтаРасписания</DataProcessor>
 			<InformationRegister>ГП_РасписаниеЗанятийУпрощенный</InformationRegister>
+			<InformationRegister>ГП_ИдентификаторыДляСайтаРасписания</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

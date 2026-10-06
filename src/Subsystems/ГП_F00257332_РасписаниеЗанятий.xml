@@ -25,6 +25,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ГП_АдресСайтаРасписания</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ГП_ИспользоватьВыгрузкуРасписанияНаСайт</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.ГП_ИспользоватьВыгрузкуРасписанияНаСайт</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ГП_НастройкиСайтаРасписания</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГП_ИдентификаторыДляСайтаРасписания</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
