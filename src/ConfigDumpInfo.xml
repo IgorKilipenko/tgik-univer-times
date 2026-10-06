@@ -13,11 +13,11 @@
 		<Metadata name="CommonModule.ГП_РаботаСРасписаниемЗанятийКлиентСервер" id="f5ebbefd-d60c-44ca-a6c6-e6951d29d577" configVersion="b95a82bac302d7cd97e8855fe93d74d3dccdb4ba"/>
 		<Metadata name="CommonModule.ГП_РаботаСРасписаниемЗанятийКлиентСервер.Module" id="f5ebbefd-d60c-44ca-a6c6-e6951d29d577.0" configVersion="8e54765db3be0912aaff6a31840409dae42859ca"/>
 		<Metadata name="CommonModule.ГП_СайтРасписания" id="75ca939f-36a9-4de2-9ddf-60f594520e4c" configVersion="d0b2f4a1b6dc90d2aa1da6be7dc58f3be45264b0"/>
-		<Metadata name="CommonModule.ГП_СайтРасписания.Module" id="75ca939f-36a9-4de2-9ddf-60f594520e4c.0" configVersion="01383e396b8865fa14ecd673ecb7e305b75110b8"/>
+		<Metadata name="CommonModule.ГП_СайтРасписания.Module" id="75ca939f-36a9-4de2-9ddf-60f594520e4c.0" configVersion="d250d54f6c926353b83a9333ff66c082c099bba5"/>
 		<Metadata name="CommonModule.ГП_СайтРасписанияПереопределяемый" id="ae146fd9-e27a-4afa-95a2-66866ddf08b6" configVersion="0bb932e4167d08a49fc0e20cba883ccf20085bbc"/>
-		<Metadata name="CommonModule.ГП_СайтРасписанияПереопределяемый.Module" id="ae146fd9-e27a-4afa-95a2-66866ddf08b6.0" configVersion="636ab0f3697a3b064362f6b3965fcde92e8ab334"/>
+		<Metadata name="CommonModule.ГП_СайтРасписанияПереопределяемый.Module" id="ae146fd9-e27a-4afa-95a2-66866ddf08b6.0" configVersion="622d6f67d167db903cb3a9386f198fbb2c25fdfe"/>
 		<Metadata name="CommonModule.ГП_СайтРасписанияСлужебный" id="eb1524ec-7c43-41f5-bd4c-a0684c055778" configVersion="6491b6a80c3a66b38a012e4d518bc7c928bded18"/>
-		<Metadata name="CommonModule.ГП_СайтРасписанияСлужебный.Module" id="eb1524ec-7c43-41f5-bd4c-a0684c055778.0" configVersion="7b7a6fbfcdada4703b79347464d15bf4ea633182"/>
+		<Metadata name="CommonModule.ГП_СайтРасписанияСлужебный.Module" id="eb1524ec-7c43-41f5-bd4c-a0684c055778.0" configVersion="5e1bea8c4132f91fa49e2b09987b831e3bf5b0b3"/>
 		<Metadata name="CommonModule.РаботаВБезопасномРежимеПереопределяемый" id="6c02eb93-acf8-4b41-beb8-3969252bd3c0" configVersion="200306d45d22292346f055fce7a51d64cb58a8c2"/>
 		<Metadata name="CommonModule.РаботаВБезопасномРежимеПереопределяемый.Module" id="6c02eb93-acf8-4b41-beb8-3969252bd3c0.0" configVersion="616e97d14df780b08e55f4a7efa233ffc51e0055"/>
 		<Metadata name="CommonModule.РегламентныеЗаданияПереопределяемый" id="4674159f-4875-4952-bdbc-df0915952060" configVersion="c00c1005f14bfb597d939ad107ec9a18a487eaa1"/>
@@ -85,7 +85,7 @@
 		<Metadata name="Language.Русский" id="99cab40b-2211-4bb5-8c8f-0d69ef8fb2c2" configVersion="f5f546d46d8cff16b1fdc7bd85f9ad42a2e41afd"/>
 		<Metadata name="Role.ГП_РаботаСРасписаниемЗанятий" id="ec429ece-43a7-4abe-9b9f-e6bbc5510752" configVersion="92926f9ecc68293e03fdfe8775b12962215efc88"/>
 		<Metadata name="Role.ГП_РаботаСРасписаниемЗанятий.Rights" id="ec429ece-43a7-4abe-9b9f-e6bbc5510752.0" configVersion="2d8d4508624ee2e694ce250c93d96f26ade8cd1d"/>
-		<Metadata name="ScheduledJob.ГП_ВыгрузкаРасписанияНаСайт" id="c06d1349-6411-4fab-8202-37bbf190acfd" configVersion="37b925e924ce2e0de8c67f8c84173cb3aacd8ff2"/>
+		<Metadata name="ScheduledJob.ГП_ВыгрузкаРасписанияНаСайт" id="c06d1349-6411-4fab-8202-37bbf190acfd" configVersion="e3f4bf386f044fba95f812b78a3a8040249a7469"/>
 		<Metadata name="Subsystem.ГП_F00257332_РасписаниеЗанятий" id="4ee06925-d125-4b07-bbca-5c23b7111203" configVersion="d36fcfbba3d630226cfe588a45a158a1c432015c"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
