@@ -52,7 +52,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ГарантПлюс</Vendor>
-			<Version>1.0.0.0-dev4</Version>
+			<Version>1.0.0.0-dev5</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -64,6 +64,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>ГП_F00257332_РасписаниеЗанятий</Subsystem>
+			<Subsystem>Расписание</Subsystem>
 			<Role>ГП_РаботаСРасписаниемЗанятий</Role>
 			<CommonModule>ГП_РаботаСРасписаниемЗанятийКлиентСервер</CommonModule>
 			<CommonModule>ГП_СайтРасписания</CommonModule>

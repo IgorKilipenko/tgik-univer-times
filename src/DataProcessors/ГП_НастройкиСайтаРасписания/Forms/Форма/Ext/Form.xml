@@ -144,6 +144,17 @@
 				<Field>ПериодВыгрузки</Field>
 			</Save>
 		</Attribute>
+		<Attribute name="Организация" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организация</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:TypeId>c66b2ec0-5fb7-4a32-ba46-673aebc6b37a</v8:TypeId>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="Записать" id="1">

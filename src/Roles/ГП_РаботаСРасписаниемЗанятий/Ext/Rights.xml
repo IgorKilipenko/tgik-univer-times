@@ -93,6 +93,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Subsystem.Расписание.Subsystem.Справочники</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Configuration.ГП_РасписаниеЗанятий</name>
 		<right>
 			<name>ThinClient</name>
@@ -159,6 +166,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Subsystem.Расписание.Subsystem.ГП_РасписаниеУпрощенное</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ГП_РасписаниеЗанятийУпрощенный</name>
 		<right>
 			<name>Read</name>
@@ -202,6 +216,13 @@
 			<name>Use</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.Расписание</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
