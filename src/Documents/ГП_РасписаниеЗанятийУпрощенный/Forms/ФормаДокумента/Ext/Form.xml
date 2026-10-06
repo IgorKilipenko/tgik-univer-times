@@ -93,6 +93,18 @@
 							<ContextMenu name="ФакультетКонтекстноеМеню" id="11"/>
 							<ExtendedTooltip name="ФакультетРасширеннаяПодсказка" id="12"/>
 						</InputField>
+						<InputField name="ФормаОбучения" id="409">
+							<DataPath>Объект.ФормаОбучения</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отделение</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ФормаОбученияКонтекстноеМеню" id="410"/>
+							<ExtendedTooltip name="ФормаОбученияРасширеннаяПодсказка" id="411"/>
+						</InputField>
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="ГруппаШапкаПраво" id="322">
@@ -435,6 +447,34 @@
 					<DataPath>Объект.ТаблицаРасписанияДетализация.ТипЗанятия</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ChoiceList>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Лекция</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:string">Лекция</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Практика</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:string">Практика</Value>
+							</xr:Value>
+						</xr:Item>
+					</ChoiceList>
 					<ContextMenu name="ТаблицаРасписанияПоДнямТипЗанятияКонтекстноеМеню" id="380"/>
 					<ExtendedTooltip name="ТаблицаРасписанияПоДнямТипЗанятияРасширеннаяПодсказка" id="381"/>
 				</InputField>

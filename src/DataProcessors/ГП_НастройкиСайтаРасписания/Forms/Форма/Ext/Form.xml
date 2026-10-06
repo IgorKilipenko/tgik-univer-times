@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
 			<Button name="Записать" id="1">
@@ -31,17 +32,42 @@
 			<ContextMenu name="ТокенКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="ТокенРасширеннаяПодсказка" id="12"/>
 		</InputField>
-		<Button name="ВыгрузитьСейчас" id="5">
-			<Type>UsualButton</Type>
-			<CommandName>Form.Command.ВыгрузитьСейчас</CommandName>
+		<UsualGroup name="ГруппаВыгрузкаНаСайт" id="20">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Выгрузить</v8:content>
+					<v8:content>Выгрузка</v8:content>
 				</v8:item>
 			</Title>
-			<ExtendedTooltip name="ВыгрузитьСейчасРасширеннаяПодсказка" id="6"/>
-		</Button>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа выгрузка на сайт</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ГруппаВыгрузкаНаСайтРасширеннаяПодсказка" id="21"/>
+			<ChildItems>
+				<InputField name="ПериодВыгрузки" id="17">
+					<DataPath>ПериодВыгрузки</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПериодВыгрузкиКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="ПериодВыгрузкиРасширеннаяПодсказка" id="19"/>
+				</InputField>
+				<Button name="ВыгрузитьСейчас" id="5">
+					<Type>UsualButton</Type>
+					<Representation>PictureAndText</Representation>
+					<CommandName>Form.Command.ВыгрузитьСейчас</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выгрузить расписание</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ВыгрузитьСейчасРасширеннаяПодсказка" id="6"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -104,6 +130,20 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
+		<Attribute name="ПериодВыгрузки" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период выгрузки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:StandardPeriod</v8:Type>
+			</Type>
+			<Save>
+				<Field>ПериодВыгрузки</Field>
+			</Save>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="Записать" id="1">
@@ -153,6 +193,10 @@
 					<v8:content>Выгрузить сейчас</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.GenerateReport</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 			<Action>ВыгрузитьСейчас</Action>
 		</Command>
 	</Commands>

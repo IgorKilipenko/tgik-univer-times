@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="7c225b9f-d75f-40eb-9670-b63147684799">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ФормаОбучения" category="Object">
+				<xr:TypeId>b27274cc-c1bd-40b0-a735-af6eb17570dc</xr:TypeId>
+				<xr:ValueId>030fdb8c-465d-4185-aead-297832aef01c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ФормаОбучения" category="Ref">
+				<xr:TypeId>15efb4d0-5f5e-4db1-8b19-2adfe630ca4f</xr:TypeId>
+				<xr:ValueId>f705ff6a-8063-4fc0-b4b0-978c2ef2a763</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ФормаОбучения" category="Selection">
+				<xr:TypeId>a39ade5d-8e2a-4a05-b705-28c67c6e0f8c</xr:TypeId>
+				<xr:ValueId>335bced6-a19a-4e69-9950-364e86c9c535</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ФормаОбучения" category="List">
+				<xr:TypeId>aae1cb09-624d-46ab-bcdd-0f5d82e7da34</xr:TypeId>
+				<xr:ValueId>621879d5-084d-4f36-986d-7f610147a573</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ФормаОбучения" category="Manager">
+				<xr:TypeId>7d5df6c9-bb4d-4360-abc6-4fac25bad4a4</xr:TypeId>
+				<xr:ValueId>5a504287-5ad1-4c7e-aba5-c10f92809257</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ФормаОбучения</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e86a9df0-95a8-4498-89f1-5d0bb4465374</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>
